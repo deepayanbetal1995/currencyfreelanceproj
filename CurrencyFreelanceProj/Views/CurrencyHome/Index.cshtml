@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    @*@if(Session["username"]== null)
+    {
+        
+    }*@
+
+}
+<head>
+    @Styles.Render("~/Style/StyleSheet1.css")
+    @*<link href="~/Style/StyleSheet1.css" rel="stylesheet" />*@
+</head>
+
+<body>
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+
+    
+        <div class="container">
+            <div class="row firstdiv">
+                <div>
+                    <div class="col-md-4">
+                        <img src="~/Style/Image/stripy-lines.jpg" width="350" height="160" />
+                    </div>
+                    <div class="col-md-4" style="align-content:center">
+                        <h2 style="text-align:center;color:whitesmoke;font:bold">Buy and sell cryptocurrency</h2>
+                        <div class="form-inline">
+                            <input type="text" class="form-control" placeholder="Email Address" />
+                            <button type="button" class="btn btn-primary">Enter</button>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <img src="~/Style/Image/stripy-lines.jpg" width="350" height="160" />
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="row seconddiv">
+                <div>
+                    <div class="col-md-2">
+                        @*<h2>2Index</h2>*@
+                    </div>
+                    <div class="col-md-8 ">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">No.</th>
+                                    <th scope="col">Currency</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Action</th>
+                                    <th scope="col">User</th>
+                                </tr>
+                            </thead>
+                            @for (int i = 0; i <= 50; i++)
+                            {
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">@i</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>
+                                            <input type="submit" value="Buy" name="button" /> |
+                                            <button class="btn btn-primary" value="sale" name="button">Sale</button>
+                                        </td>
+                                        <td>@Session["userName"]</td>
+
+                                    </tr>
+                                </tbody>
+                                }
+
+                        </table>
+                    </div>
+                    <div class="col-md-2 ">
+                        @*<h2>2Index2</h2>*@
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    }
+</body>
+
+
+

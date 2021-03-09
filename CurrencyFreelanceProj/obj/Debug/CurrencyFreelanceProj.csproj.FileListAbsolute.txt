@@ -69,8 +69,8 @@ G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\bin\System.Web.WebPages.Ra
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\bin\Newtonsoft.Json.xml
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\bin\Antlr3.Runtime.pdb
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.csprojAssemblyReference.cache
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.csproj.CoreCompileInputs.cache
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.csproj.CopyComplete
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.dll
 G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.pdb
+G:\dotNET\CurrencyFreelanceProj\CurrencyFreelanceProj\obj\Debug\CurrencyFreelanceProj.csprojAssemblyReference.cache

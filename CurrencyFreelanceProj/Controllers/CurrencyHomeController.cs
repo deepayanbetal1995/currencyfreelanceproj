@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace CurrencyFreelanceProj.Controllers
 {
+    [Authorize]
     public class CurrencyHomeController : Controller
     {
         // GET: CurrencyHome
